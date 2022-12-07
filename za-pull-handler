@@ -49,7 +49,7 @@ fi
 # using function from zinit-install.zsh
 #wget $url -O $tmp &>/dev/null
 source $ZINIT[BIN_DIR]/zinit-install.zsh
-.zinit-download-file-stdout $url >! $tmp
+-zinit-download-file-stdout $url >! $tmp
 
 # Strip tags, etc.
 local file=$(<$tmp)
